@@ -125,7 +125,7 @@ You'll notice that we have a 'README.md'. Can sphinx use them? The answer is yes
 This will help sphinx locate your `.md` files and convert them to `.rst` format internally. Note: Do the same thing for additional markdown files you may have.
 
 
-## Copy template files
+## Add Template Files
 The latest version of sphinx (at the time of this writing) has the ability to recursively scan your package and generate nice API documentation, a feature called "autosummary". To use the autosummary recursive option, we need to provide a format for sphinx (courtesy of [link](https://github.com/JamesALeedham/Sphinx-Autosummary-Recursion)).
 
 - Add `custom-class-template.rst` to `doc/_template/` with the following:
