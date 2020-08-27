@@ -55,7 +55,7 @@ For any of the options, pressing 'enter' will utilize the default values.
 
 ## Edit `conf.py`
 Remember that Sphinx is not totally automatic, so we need to tune a few settings for it to work. Using your favorite editor, open `doc/conf.py`.
-- Tell sphinx where your package is located using catkin (link)[http://wiki.ros.org/Sphinx], by adding the following:
+- Tell sphinx where your package is located using catkin [link](http://wiki.ros.org/Sphinx), by adding the following:
 ```
  import os
  import catkin_pkg.package
@@ -67,7 +67,7 @@ Remember that Sphinx is not totally automatic, so we need to tune a few settings
  version = catkin_package.version
  release = catkin_package.version
 ```
-- Add a few extensions for extra Sphinx functionalities (link)[https://www.sphinx-doc.org/en/master/usage/extensions/index.html]
+- Add a few extensions for extra Sphinx functionalities [link](https://www.sphinx-doc.org/en/master/usage/extensions/index.html)
 ```
 extensions = [
         'm2r2',
