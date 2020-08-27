@@ -21,7 +21,7 @@ Also install rosdoc_lite using
 sudo apt install ros-melodic-rosdoc-lite
 ```
 
-Note: Code must be documented using `docstrings`. I have opted for Googlestyle docstrings
+Note: Code must be documented using `docstrings`. I have opted for [Googlestyle docstrings](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
 
 # Instructions
 - cd to the top level of your ROS package
