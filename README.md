@@ -55,7 +55,7 @@ For any of the options, pressing 'enter' will utilize the default values.
 
 ## Edit `conf.py`
 Remember that Sphinx is not totally automatic, so we need to tune a few settings for it to work. Using your favorite editor, open `doc/conf.py`.
-- Tell sphinx where your package is located using catkin [link](http://wiki.ros.org/Sphinx), by adding the following:
+- Tell sphinx where your package is located using [catkin](http://wiki.ros.org/Sphinx), by adding the following:
 ```
  import os
  import catkin_pkg.package
@@ -67,7 +67,7 @@ Remember that Sphinx is not totally automatic, so we need to tune a few settings
  version = catkin_package.version
  release = catkin_package.version
 ```
-- Add a few extensions for extra Sphinx functionalities [link](https://www.sphinx-doc.org/en/master/usage/extensions/index.html)
+- Add a few extensions [extensions](https://www.sphinx-doc.org/en/master/usage/extensions/index.html) for extra Sphinx functionality
 ```
 extensions = [
         'm2r2',
@@ -126,7 +126,7 @@ This will help sphinx locate your `.md` files and convert them to `.rst` format 
 
 
 ## Add Template Files
-The latest version of sphinx (at the time of this writing) has the ability to recursively scan your package and generate nice API documentation, a feature called "autosummary". To use the autosummary recursive option, we need to provide a format for sphinx (courtesy of [link](https://github.com/JamesALeedham/Sphinx-Autosummary-Recursion)).
+The latest version of sphinx (at the time of this writing) has the ability to recursively scan your package and generate nice API documentation, a feature called "autosummary". To use the autosummary recursive option, we need to provide a format for sphinx (courtesy of [JamesALeedham](https://github.com/JamesALeedham/Sphinx-Autosummary-Recursion)).
 
 - Add `custom-class-template.rst` to `doc/_template/` with the following:
 
